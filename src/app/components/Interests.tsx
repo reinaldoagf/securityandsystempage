@@ -1,27 +1,20 @@
 "use client"
 // Interests.tsx
-import { useEffect, useRef, useState } from 'react';
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
+import { faAngular, faBootstrap, faCss3, faHtml5, faJs, faNodeJs, faReact, faSass } from '@fortawesome/free-brands-svg-icons';
 import TagSlider from './TagSlider';
 import styles from './Interests.module.css';
 
 const Interests = () => {
   const tags = [
-    'React',
-    'JavaScript',
-    'CSS',
-    'HTML',
-    'Node.js',
-    'Webpack',
-    'TypeScript',
-    'GraphQL',
-    'Redux',
-    'Next.js',
-    'Vue.js',
-    'Angular',
-    'SASS',
-    'Tailwind CSS',
-    'Bootstrap',
+    {text: 'React', icon: faReact },
+    {text: 'JavaScript', icon: faJs },
+    {text: 'CSS', icon: faCss3},
+    {text: 'HTML', icon: faHtml5},
+    {text: 'Node.js', icon: faNodeJs},
+    {text: 'Angular', icon: faAngular},
+    {text: 'SASS', icon: faSass},
+    {text: 'Bootstrap', icon: faBootstrap},
   ];
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef<HTMLDivElement | null>(null);

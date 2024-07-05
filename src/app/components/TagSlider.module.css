@@ -53,6 +53,7 @@
 .tagItem {
   display: flex;
   flex: none;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 25%; /* Equivalente a w-1/4 en Tailwind CSS */
@@ -60,12 +61,15 @@
 }
 
 .tagIcon {
-  font-size: 4rem; /* Equivalente a text-8xl en Tailwind CSS */
+  font-size: 1rem; /* Equivalente a text-8xl en Tailwind CSS */
   color: inherit; /* Asegura que hereda el color del contenedor */
 }
 
 @media only screen and (min-width: 64rem) {
   .sliderContainer {
     height: 10rem;
+  }
+  .tagIcon {
+    font-size: 4rem;
   }
 }
