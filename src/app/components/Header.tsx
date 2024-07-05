@@ -57,7 +57,7 @@ const Header = () => {
               <a href="#home" className={styles.menuLink} onClick={handleLinkClick}>Inicio</a>
             </li>
             <li className={styles.menuItem}>
-              <a href="#" className={styles.menuLink} onClick={handleLinkClick}>Sobre mí</a>
+              <a href="#about-me" className={styles.menuLink} onClick={handleLinkClick}>Sobre mí</a>
             </li>
             <li className={styles.menuItem}>
               <a href="#" className={styles.menuLink} onClick={handleLinkClick}>Mis intereses</a>

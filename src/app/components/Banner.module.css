@@ -1,6 +1,5 @@
 .section {
     margin: 0 auto;
-    padding: 6rem 0 1rem;
 }
 
 .container {
@@ -21,7 +20,6 @@
     display: block;
     max-width: 25rem;
     height: auto;
-    margin-top: 2rem;
     object-fit: cover;
     justify-self: center;
 }
@@ -73,6 +71,5 @@
     .bannerColumn {
         grid-template-columns: 1fr max-content;
         column-gap: 4rem;
-        margin-top: 3rem;
     }
 }
