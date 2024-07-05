@@ -15,7 +15,7 @@ const ParallaxSection: React.FC<ParallaxSectionProps> = ({ backgroundImage, chil
       if (parallaxRef.current) {
         const offset = window.pageYOffset;
         // Ajusta la posición Y de la imagen de fondo para el efecto parallax
-        parallaxRef.current.style.backgroundPositionY = `-${offset * 0.05}px`;
+        parallaxRef.current.style.backgroundPositionY = `-${offset * 0.2}px`;
       }
     };
 

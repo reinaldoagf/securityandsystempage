@@ -1,9 +1,10 @@
 // page.tsx
 import Header from './components/Header';
 import Banner from './components/Banner';
+import ParallaxSection from './components/ParallaxSection';
 import AboutMe from './components/AboutMe';
 import Interests from './components/Interests';
-import ParallaxSection from './components/ParallaxSection';
+import ContactForm from './components/ContactForm';
 import Layout from './components/Layout';
 import styles from './page.module.css';
 
@@ -23,6 +24,12 @@ export default function Home() {
       </div>
       <div id="interests">
         <Interests />
+      </div>
+      <ParallaxSection backgroundImage="https://as2.ftcdn.net/v2/jpg/01/08/85/33/1000_F_108853380_yOPTggGSuYRZWBqRxW6DePDOcc1WfaBU.jpg">
+        <h2>Contáctame</h2>
+      </ParallaxSection>
+      <div id="contact">
+        <ContactForm />
       </div>
     </Layout>
   );
