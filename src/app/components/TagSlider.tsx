@@ -4,9 +4,6 @@ import styles from './TagSlider.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const TagSlider = ({ tags }: { tags: any[] }) => {
-
-  console.log({tags})
-
   return (
     <>
       {/* Contenedor principal para la animación de derecha a izquierda */}
