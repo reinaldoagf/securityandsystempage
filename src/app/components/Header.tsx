@@ -60,7 +60,7 @@ const Header = () => {
               <a href="#about-me" className={styles.menuLink} onClick={handleLinkClick}>Sobre mí</a>
             </li>
             <li className={styles.menuItem}>
-              <a href="#" className={styles.menuLink} onClick={handleLinkClick}>Mis intereses</a>
+              <a href="#interests" className={styles.menuLink} onClick={handleLinkClick}>Mis intereses</a>
             </li>
             <li className={styles.menuItem}>
               <a href="#" className={styles.menuLink} onClick={handleLinkClick}>Contacto</a>

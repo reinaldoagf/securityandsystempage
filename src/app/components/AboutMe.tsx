@@ -35,7 +35,7 @@ const AboutMe = () => {
       className={`${styles.section} ${isVisible ? styles.visible : ''}`}
     >
       <div>
-        <h1 className={styles.heading}>About Me</h1>
+        <h1 className={styles.heading}>Sobre mí</h1>
       </div>
       <div className={styles.content}>
         <p className={styles.description}>

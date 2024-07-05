@@ -21,6 +21,7 @@
   --color-blue-700: hsl(224, 76%, 48%);
   --color-blue-800: hsl(226, 71%, 40%);
   --color-blue-900: hsl(224, 64%, 33%);
+  --color-blue-dark: hsl(240, 100%, 10%);
   --shadow-small: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
      0 1px 2px 0 rgba(0, 0, 0, 0.06);
   --shadow-medium: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
@@ -82,7 +83,7 @@ body {
   line-height: 1.5;
   height: -webkit-fill-available;
   color: var(--color-white-100);
-  background-color: var(--color-black-500);
+  background-color: var(--color-blue-dark);
 }
 
 main {

@@ -1,0 +1,71 @@
+
+.sliderContainer {
+  height: 5rem; /* Equivalente a h-56 en Tailwind CSS */
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.sliderBackground {
+  background-color: #2dd4bf1a; /* Equivalente a bg-slate-300 en Tailwind CSS */
+}
+
+.slider {
+  border-radius: 10px;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: #2dd4bf1a; /* Equivalente a bg-yellow-300 en Tailwind CSS */
+}
+
+.gradientLeft, .gradientRight {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 6rem; /* Equivalente a w-24 en Tailwind CSS */
+  z-index: 50;
+  background: linear-gradient(to right, var(--color-blue-dark), transparent);
+}
+
+.gradientRight {
+  right: 0;
+  background: linear-gradient(to left, var(--color-blue-dark), transparent);
+}
+
+.sliderContent {
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.infiniteTranslate {
+  animation: full-translate 10s linear infinite;
+}
+
+
+@keyframes full-translate {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+.tagItem {
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 25%; /* Equivalente a w-1/4 en Tailwind CSS */
+  border: 2px solid var(--color-blue-dark); /* Equivalente a border-2 en Tailwind CSS */
+}
+
+.tagIcon {
+  font-size: 4rem; /* Equivalente a text-8xl en Tailwind CSS */
+  color: inherit; /* Asegura que hereda el color del contenedor */
+}
+
+@media only screen and (min-width: 64rem) {
+  .sliderContainer {
+    height: 10rem;
+  }
+}
