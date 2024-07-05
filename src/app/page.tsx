@@ -5,6 +5,7 @@ import ParallaxSection from './components/ParallaxSection';
 import AboutMe from './components/AboutMe';
 import Interests from './components/Interests';
 import ContactForm from './components/ContactForm';
+import Footer from './components/Footer';
 import Layout from './components/Layout';
 import styles from './page.module.css';
 
@@ -30,6 +31,9 @@ export default function Home() {
       </ParallaxSection>
       <div id="contact">
         <ContactForm />
+      </div>
+      <div>
+        <Footer />
       </div>
     </Layout>
   );
